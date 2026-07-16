@@ -1,0 +1,28 @@
+CUADERNOS JUPYTER: MODELOS DE ADMISIÓN Y RIESGO CARDIACO
+
+CONTENIDO
+1. admision_regresion_logistica_orange_en_python.ipynb
+2. riesgo_cardiaco_regresion_logistica_orange_en_python.ipynb
+3. admisiones_gradcafe_operaciones_orange.csv
+4. riesgo_ataque_cardiaco_uci_orange.csv
+
+Los dos cuadernos están ejecutados y reproducen el proceso realizado en Orange:
+- carga y exploración del dataset;
+- separación estratificada 70 % entrenamiento / 30 % prueba;
+- preprocesamiento de variables numéricas y categóricas;
+- regresión logística;
+- predicciones individuales;
+- accuracy, AUC, F1, precision y recall;
+- matriz de confusión;
+- curva ROC;
+- análisis de errores;
+- coeficientes del modelo;
+- exportación de predicciones.
+
+USO
+1. Extraiga todos los archivos del ZIP en una misma carpeta.
+2. Abra Jupyter Notebook, JupyterLab, Google Colab o VS Code.
+3. Abra el cuaderno deseado.
+4. Ejecute las celdas en orden.
+
+Los cuadernos buscan el CSV primero en su misma carpeta y después en /mnt/data.
